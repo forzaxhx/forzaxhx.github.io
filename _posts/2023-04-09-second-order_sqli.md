@@ -1,5 +1,5 @@
 ---
-title: Stored MySQL Injection
+title: Stored SQL Injection
 date: 2023-04-09 01:00:00
 categories: [Vulnerabilities, Web]
 tags: [mysql, vulnerabilities, code_injection, web]
