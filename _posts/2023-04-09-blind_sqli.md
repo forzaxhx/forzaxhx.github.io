@@ -1,5 +1,5 @@
 ---
-title: Stored SQL Injection
+title: Blind SQL Injection
 date: 2023-04-09 01:00:00
 categories: [Vulnerabilities, Web]
 tags: [sql, vulnerabilities, code_injection, web]
