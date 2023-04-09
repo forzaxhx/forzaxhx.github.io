@@ -1,6 +1,6 @@
 ---
 title: MySQL Injection UNION attack
-date: 2023-04-09 18:00:00 +2
+date: 2023-04-09 18:00:00
 categories: [Vulnerabilities, MySQL]
 tags: [mysql, vulnerabilities, code_injection, web]
 comments: false
