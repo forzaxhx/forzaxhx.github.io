@@ -25,7 +25,7 @@ tagline: ForzaxHX personal blog # it will display as the sub-title
 description: Este es mi blog personal. Aqui publicare entre otros tecnicas de explotacion de vuulnerabilidades, noticias, PoC, etc.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://forzaxhx.github.io"
 
 github:
   username: forzaxhx # change to your github username
