@@ -33,14 +33,12 @@ github:
 twitter:
   username: ForzaxHX # change to your twitter username
 
-#social:
-#  # Change to your full name.
-#  # It will be displayed as the default author of the posts and the copyright owner in the Footer
-#  name: forzaxhx
-#  email: forzaxhx@gmail.com # change to your email address
-#  links:
-#    - https://twitter.com/ForzaxHX
-#    - https://github.com/forzaxhx
+social:
+  name: ForzaxHX
+  email: forzaxhx@gmail.com # change to your email address
+  links:
+    - https://twitter.com/ForzaxHX
+    - https://github.com/forzaxhx
 #    - https://www.linkedin.com/in/samuel-rg
 
 google_site_verification: # fill in to your verification string
