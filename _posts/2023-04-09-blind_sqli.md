@@ -1,6 +1,6 @@
 ---
 title: Blind SQL Injection
-date: 2023-04-09 01:00:00
+date: 2023-04-09
 categories: [Vulnerabilities, Web]
 tags: [sql, vulnerabilities, code_injection, web]
 comments: false
