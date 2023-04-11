@@ -1,6 +1,6 @@
 ---
 title: Stored XSS
-date: 2023-04-09 01:00:00
+date: 2023-04-11
 categories: [Vulnerabilities, Web]
 tags: [xss, vulnerabilities, code_injection, web]
 comments: false
