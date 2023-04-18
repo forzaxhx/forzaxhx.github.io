@@ -69,5 +69,10 @@ Database
 | Manipulación de datos DOM 					          | element.setAttribute() 	  |
 | Negación de servicio 							            | RegExp() 					        |
 
+| Video URL                                                                                          | Platform  | ID            |
+|----------------------------------------------------------------------------------------------------|-----------|:--------------|
+| [https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg) | `youtube` | `H-B46URT4mg` |
+| [https://www.**twitch**.tv/videos/**1634779211**](https://www.twitch.tv/videos/1634779211)         | `twitch`  | `1634779211`  |
+
 ## DOM Clobbering
 La destrucción de DOM es una técnica avanzada en la que se inyecta HTML en la página para manipular el DOM y, en última instancia, cambiar el comportamiento de JS en el sitio web. La forma más común de DOM Clobbering utiliza un elemento de anclaje para sobrescribir una variable global, que luego es utilizada por la aplicación web de una manera no segura, como generar una URL de secuencia de comandos dinámica.
