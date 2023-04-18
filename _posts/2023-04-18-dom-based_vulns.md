@@ -50,29 +50,25 @@ Database
 ```
 
 ## Sumideros comunes
-| DOM-based vulnerability 						          | Sink 						          |
-|-----------------------------------------------|:--------------------------|
-| DOM XSS										                    | document.write() 			    |
-| Redirección abierta 							            | windows.location 			    |
-| Manipulación de cookies						            | document.cookie 			    |
-| Inyección de JS 								              | eval() 					          |
-| Manipulación de dominios de documentos 		    | document.domain 			    |
-| Envenenamiento de WebSocket-URL 				      | WebSocket() 				      |
-| Manipulación de enlaces 						          | element.src 				      |
-| Manipulación de mensajes web 					        | postMessage()				      |
-| Manipulación de encabezado de solicitud AJAX 	| setRequestHeader() 		    |
-| Manipulación de rutas de archivos locales 	  | FileReader.ReadAsText()   |
-| Inyeccion SQL del lado del cliente 			      | ExecuteSql() 				      |
-| Manipulación de almacenamiento HTML5 			    | sessionStorage.setItem()  |
-| Inyección XPath del lado del cliente 			    | document.evaluate() 		  |
-| Inyeccion JSON del lado del cliente 			    | JSON.parse() 				      |
-| Manipulación de datos DOM 					          | element.setAttribute() 	  |
-| Negación de servicio 							            | RegExp() 					        |
 
-| Video URL                                                                                          | Platform  | ID            |
-|----------------------------------------------------------------------------------------------------|-----------|:--------------|
-| [https://www.**youtube**.com/watch?v=**H-B46URT4mg**](https://www.youtube.com/watch?v=H-B46URT4mg) | `youtube` | `H-B46URT4mg` |
-| [https://www.**twitch**.tv/videos/**1634779211**](https://www.twitch.tv/videos/1634779211)         | `twitch`  | `1634779211`  |
+| DOM-based vulnerability 						          | Sink 						            |
+|-----------------------------------------------|:----------------------------|
+| DOM XSS										                    | `document.write()` 			    |
+| Redirección abierta 							            | `windows.location` 			    |
+| Manipulación de cookies						            | `document.cookie` 			    |
+| Inyección de JS 								              | `eval()` 					          |
+| Manipulación de dominios de documentos 		    | `document.domain` 			    |
+| Envenenamiento de WebSocket-URL 				      | `WebSocket()` 				      |
+| Manipulación de enlaces 						          | `element.src` 				      |
+| Manipulación de mensajes web 					        | `postMessage()`				      |
+| Manipulación de encabezado de solicitud AJAX 	| `setRequestHeader()` 		    |
+| Manipulación de rutas de archivos locales 	  | `FileReader.ReadAsText()`   |
+| Inyeccion SQL del lado del cliente 			      | `ExecuteSql()` 				      |
+| Manipulación de almacenamiento HTML5 			    | `sessionStorage.setItem()`  |
+| Inyección XPath del lado del cliente 			    | `document.evaluate()` 		  |
+| Inyeccion JSON del lado del cliente 			    | `JSON.parse()` 				      |
+| Manipulación de datos DOM 					          | `element.setAttribute()` 	  |
+| Negación de servicio 							            | `RegExp()` 					        |
 
 ## DOM Clobbering
 La destrucción de DOM es una técnica avanzada en la que se inyecta HTML en la página para manipular el DOM y, en última instancia, cambiar el comportamiento de JS en el sitio web. La forma más común de DOM Clobbering utiliza un elemento de anclaje para sobrescribir una variable global, que luego es utilizada por la aplicación web de una manera no segura, como generar una URL de secuencia de comandos dinámica.
